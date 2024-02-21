@@ -5,11 +5,15 @@
   --dark-yellow: #fbb54c;
   --light-pink: #ffadad;
   --light-green: #acd157;
+
+  /* font-families */
+  --font-headline: "Playfair", serif;
+  --font-family: "Libre Bodoni", serif;
 }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: var(--font-headline);
   background-color: var(--midle-purple);
   color: var(--white);
 }
@@ -31,7 +35,7 @@ h1,
 
 label,
 legend {
-  font-weight: bold;
+  font-family: var(--font-family);
 }
 
 .input-container {
@@ -53,6 +57,7 @@ button,
 select {
   min-height: 24px;
   color: var(--midle-purple);
+  font-family: var(--font-family);
 }
 
 fieldset,
