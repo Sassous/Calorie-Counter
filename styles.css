@@ -1,17 +1,16 @@
 :root {
   --white: #ffffff;
-  --black: #000000;
-  --light-yellow: #fecc4c;
-  --dark-yellow: #feac32;
+  --midle-purple: #aa8ab5;
+  --yellow: #ffd44d;
+  --dark-yellow: #fbb54c;
   --light-pink: #ffadad;
-  --dark-red: #850000;
   --light-green: #acd157;
 }
 
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  background-color: var(--black);
+  background-color: var(--midle-purple);
   color: var(--white);
 }
 
@@ -43,7 +42,7 @@ legend {
 button {
   cursor: pointer;
   text-decoration: none;
-  background-color: var(--light-yellow);
+  background-color: var(--yellow);
   border: 2px solid var(--dark-yellow);
 }
 input{
@@ -53,7 +52,7 @@ input{
 button,
 select {
   min-height: 24px;
-  color: var(--black);
+  color: var(--midle-purple);
 }
 
 fieldset,
